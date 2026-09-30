@@ -56,16 +56,16 @@ export const values = ['Professionnalisme', 'Qualité', 'Respect des délais', '
 
 export const categories = ['Tous', 'BTP', 'Télécom', 'Fourniture', 'Travaux divers']
 
-// Projets : remplacer titres, textes et images (dossier public/images)
+// Projets présentés dans la galerie, avec leurs photos locales.
 export const projects = [
-  { id: 1, title: 'Villa moderne', category: 'BTP', image: '/images/villa.jpeg', gallery: ['/images/villa.jpeg'], description: 'Construction et finition d’une villa à étage avec balcon vitré.' },
-  { id: 2, title: 'Bâtiment résidentiel R+2', category: 'BTP', image: '/images/immeuble.jpeg', gallery: ['/images/immeuble.jpeg'], description: 'Immeuble de logements en cours de finition.' },
-  { id: 3, title: 'Dalle en hourdis', category: 'BTP', image: '/images/dalle.jpeg', gallery: ['/images/dalle.jpeg'], description: 'Réalisation d’un plancher hourdis avec ferraillage.' },
-  { id: 4, title: 'Fondations et poteaux', category: 'BTP', image: '/images/fondation.jpeg', gallery: ['/images/fondation.jpeg', '/images/ferraillage.jpeg', '/images/fouille.jpeg'], description: 'Fouilles, ferraillage et mise en place des poteaux.' },
-  { id: 5, title: 'Peinture et finitions', category: 'Travaux divers', image: '/images/peinture.jpeg', gallery: ['/images/peinture.jpeg'], description: 'Enduit et peinture de façade.' },
-  { id: 6, title: 'Bassin en construction', category: 'Travaux divers', image: '/images/bassin.jpeg', gallery: ['/images/bassin.jpeg'], description: 'Terrassement et ferraillage d’un bassin.' },
-  { id: 7, title: 'Projet télécom (démo)', category: 'Télécom', image: null, gallery: [], description: 'Emplacement réservé : ajoutez ici une réalisation télécom.' },
-  { id: 8, title: 'Fourniture de bureaux (démo)', category: 'Fourniture', image: null, gallery: [], description: 'Emplacement réservé : ajoutez ici une fourniture réalisée.' },
+  { id: 1, title: 'Villa moderne', category: 'BTP', image: '/images/villa.jpeg', gallery: ['/images/villa.jpeg'], alt: 'Villa à étage avec balcon vitré.', description: 'Construction et finition d’une villa à étage avec balcon vitré.' },
+  { id: 2, title: 'Bâtiment résidentiel R+2', category: 'BTP', image: '/images/immeuble.jpeg', gallery: ['/images/immeuble.jpeg'], alt: 'Bâtiment résidentiel de plusieurs niveaux.', description: 'Immeuble de logements en cours de finition.' },
+  { id: 3, title: 'Dalle en hourdis', category: 'BTP', image: '/images/dalle.jpeg', gallery: ['/images/dalle.jpeg'], alt: 'Plancher hourdis avec ferraillage.', description: 'Réalisation d’un plancher hourdis avec ferraillage.' },
+  { id: 4, title: 'Fondations et poteaux', category: 'BTP', image: '/images/fondation.jpeg', gallery: ['/images/fondation.jpeg', '/images/ferraillage.jpeg', '/images/fouille.jpeg'], alt: 'Travaux de fondation et mise en place de poteaux.', description: 'Fouilles, ferraillage et mise en place des poteaux.' },
+  { id: 5, title: 'Peinture et finitions', category: 'Travaux divers', image: '/images/peinture.jpeg', gallery: ['/images/peinture.jpeg'], alt: 'Travaux d’enduit et de peinture de façade.', description: 'Enduit et peinture de façade.' },
+  { id: 6, title: 'Construction de piscine', category: 'Travaux divers', image: '/images/bassin.jpeg', gallery: ['/images/bassin.jpeg'], alt: 'Bassin en cours de construction.', description: 'Travaux de terrassement, ferraillage et préparation d’un bassin de piscine.' },
+  { id: 7, title: 'Fourniture et livraison de panneaux', category: 'Fourniture', image: '/images/fourniture-panneaux.jpeg', gallery: ['/images/fourniture-panneaux.jpeg'], alt: 'Déchargement de panneaux de bois depuis un véhicule utilitaire.', description: 'Approvisionnement et livraison de panneaux pour les besoins d’un chantier.' },
+  { id: 8, title: 'Travaux d’installation télécom', category: 'Télécom', image: '/images/travaux-telecom.jpeg', gallery: ['/images/travaux-telecom.jpeg'], alt: 'Équipe équipée pour des travaux sur une infrastructure télécom.', description: 'Réalisation et installation d’infrastructures de télécommunication adaptées aux besoins du client.' },
 ]
 
 // Pour ajouter un service : ajouter une ligne ici

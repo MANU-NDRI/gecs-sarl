@@ -12,7 +12,7 @@ export default function ProjectModal({ p, onClose }) {
       <div className="mbox" onClick={(e) => e.stopPropagation()}>
         <button ref={btn} className="mclose" aria-label="Fermer" onClick={onClose}><X /></button>
         <span className="tag static">{p.category}</span><h2>{p.title}</h2><p>{p.description}</p>
-        <div className="mgal">{p.gallery.map((g) => <img key={g} src={g} alt={p.title} loading="lazy" />)}</div>
+        <div className="mgal">{p.gallery.map((g) => <img key={g} src={g} alt={p.alt} loading="lazy" />)}</div>
       </div>
     </div>
   )
