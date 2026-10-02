@@ -29,6 +29,29 @@ export default function Home() {
     <section className="section container split">
       <Reveal><img className="rounded" src="/images/immeuble.jpeg" alt="Bâtiment résidentiel réalisé par G.E.C.S SARL" loading="lazy" /></Reveal>
       <Reveal><h2>Qui sommes-nous ?</h2>
+      <section className="section video-section">
+  <div className="container">
+    <SectionTitle
+      title="Découvrez GECS SARL"
+      text="Découvrez notre entreprise, notre savoir-faire et nos différents domaines d'intervention."
+    />
+
+    <Reveal>
+      <div className="presentation-video">
+        <video
+          controls
+          playsInline
+          preload="metadata"
+          poster="/images/villa.jpeg"
+          aria-label="Vidéo de présentation de GECS SARL"
+        >
+          <source src="/videos/gecs-presentation.mp4" type="video/mp4" />
+          Votre navigateur ne prend pas en charge la lecture des vidéos.
+        </video>
+      </div>
+    </Reveal>
+  </div>
+</section>
         <p>G.E.C.S SARL est une entreprise ivoirienne spécialisée dans plusieurs domaines : le BTP, les télécommunications, la fourniture de bureaux et les travaux divers.</p>
         <p>Basés à Abobo N’Dotré, nous accompagnons particuliers, entreprises et organisations, de l’étude à la réalisation.</p>
         <Link to="/qui-sommes-nous" className="btn btn-primary">En savoir plus</Link></Reveal>
